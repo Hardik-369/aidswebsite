@@ -45,7 +45,7 @@ const faculties: Faculty[] = [
   {
     name: "Amruta Sanas",
     position: "Assistant Professor",
-    image: "src\\images\\Amruta Sanas.jpg",
+    image: "src\\images\\Amrutasanas.jpg",
     specialization: "Statistics"
   }
 ];
