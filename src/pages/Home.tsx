@@ -13,7 +13,6 @@ interface Notice {
 interface Faculty {
   name: string;
   position: string;
-  image: string;
   specialization: string;
 }
 
@@ -21,31 +20,26 @@ const faculties: Faculty[] = [
   {
     name: "Dr. Suraj Nalawade",
     position: "Department Head",
-    image: "src\\images\\Suraj Nalawade.jpg",
     specialization: "Automata theory, Computing"
   },
   {
     name: "Dr. Pravin Barapatre",
     position: " Associate Professor",
-    image: "src\\images\\Pravin Barapatre.jpg",
     specialization: "Internet of Things, Smart Irrigation, Precision Agriculture"
   },
   {
     name: "Himgouri Tapase",
     position: "Assitant Professor",
-    image: "src\\images\\Himgouri Tapase.jpg",
     specialization: "Python Programming, Computer Security"
   },
   {
     name: "Dr. Santosh Itraj",
     position: "Professor",
-    image: "src\\images\\Santosh Itraj.jpg",
     specialization: "Signal Processing,Embedded systems"
   },
   {
     name: "Amruta Sanas",
     position: "Assistant Professor",
-    image: "src\\images\\Amrutasanas.jpg",
     specialization: "Statistics"
   }
 ];
