@@ -136,15 +136,6 @@ export default function Home() {
               className="bg-white dark:bg-gray-800 rounded-xl shadow-lg transition-transform duration-300 hover:scale-105"
             >
               <div className="p-6 flex flex-col items-center">
-                {/* Circular Image Container */}
-                <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-indigo-500 dark:border-indigo-400 mb-6 shadow-lg">
-                  <img
-                    src={faculty.image}
-                    alt={faculty.name}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                
                 {/* Faculty Information */}
                 <div className="text-center">
                   <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
